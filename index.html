@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <!--navbar-->
+        <nav class="navbar">
+            <ul class="links-container">
+                <li class="link-item"><a href="#travel">Travels</a></li>
+                <li class="link-item"><a href="#explore-section">Explore</a></li>
+                <li class="link-item"><a href="#hero-section"><img src="/assets/logo.png" class="logo" alt=""></a></li>
+                <li class="link-item"><a href="#services">Services</a></li>
+                <li class="link-item"><a href="#booknow">Book Your Tour</a></li>
+            </ul>
+        </nav>
+
+
+
+
+        <!--hero main-->
+        <main class="hero-section" id="hero-section">
+
+
+            <!--Background-->
+            <div class="background">
+                <img src="assets/bakcground.jpeg" class="background-image" alt="hero-section-image">
+
+                <!--grid-->
+                <div class="slider-grid">
+                    <div class="grid-item hide"></div>
+                    <div class="grid-item hide"></div>
+                    <div class="grid-item hide"></div>
+                    <div class="grid-item hide"></div>
+                    <div class="grid-item hide"></div>
+                    <div class="grid-item hide"></div>
+                </div>
+            </div>
+
+            <div class="hero-section-content"></div>
+            <h1 class="hero-section-title">Travel Trusted Your Agnrt</h1>
+            <p class="hero-section-sub-heading"> Happiness in our happiness</p>
+
+
+        </main>
+    </header>
+
+        <div class="login-container">
+            <form id="loginForm" onsubmit="return validateForm()">
+                <h2>Login</h2>
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+
+
+
+    <!-- explore section-->
+    <section class="explore-section" id="explore-section">
+        <h1 class="section-title" data-aos="fade-up">Explore the world</h1>
+        <p class="section-para" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum
+            sem augue, vitae bibendum nibh tempor nec. Aenean quis commodo lectus, in rhoncus lorem</p>
+
+        <!-- grid -->
+
+        <div class="tours-container">
+            <div class="tour-card" data-aos="fade-up">
+                <img src="assets/2.jpg" class="tour-img" alt="tour-image">
+                <div class="tour-body">
+                    <h3 class="tour-name">Bali</h3>
+                    <p class="tour-action">View city</p>
+                </div>
+            </div>
+
+            <div class="tour-card" data-aos="fade-up">
+                <img src="assets/3.jpeg" class="tour-img" alt="tour-image">
+                <div class="tour-body">
+                    <h3 class="tour-name">Lombok</h3>
+                    <p class="tour-action">View city</p>
+                </div>
+            </div>
+
+            <div class="tour-card" data-aos="fade-up">
+                <img src="assets/bakcground.jpeg" class="tour-img" alt="tour-image">
+                <div class="tour-body">
+                    <h3 class="tour-name">Sumbawa</h3>
+                    <p class="tour-action">View city</p>
+                </div>
+            </div>
+
+            <div class="tour-card" data-aos="fade-up">
+                <img src="assets/travek.jpeg" class="tour-img" alt="tour-image">
+                <div class="tour-body">
+                    <h3 class="tour-name">Mataram</h3>
+                    <p class="tour-action">View city</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- animate on scoll JS CDN -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Local JS File(s) -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
